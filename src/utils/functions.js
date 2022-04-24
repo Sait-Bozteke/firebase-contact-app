@@ -45,8 +45,9 @@ export const useFetch=()=>{
 // Bilgi silme
 export const DeleteUser=(id)=>{
         const db = getDatabase();
-        const userRef=ref(db,"connection");
-        remove(ref(db,"baglanti/"+id))
+        const userRef = ref(db,"connection");
+
+        remove(ref(db,"connection/"+id))
 
         Toastify("Kullanıcı bilgisi silindi")
 }
