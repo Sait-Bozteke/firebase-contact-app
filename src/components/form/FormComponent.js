@@ -40,7 +40,7 @@ const FormComponent = ({info,setInfo,handleFormSubmit}) => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <code>{"<Clarusway/> "}</code>
+            <code>{"<Sait/> "}</code>
           </a>
         </div>
         <span className="design header">design</span>
